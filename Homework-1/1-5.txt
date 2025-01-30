@@ -1,0 +1,24 @@
+1. What is HTML? What does it do?
+HTML is a markup language, which has a set of rules that defines how the layout and presentation of text 
+and images should appear in a digital document. HTML structures the webpage and helps users interact with the webpage. 
+
+2. Access https://www.fordham.edu/. In your own words, describe how this webpage uses
+structure to convey meaning and navigation options to the user.
+The Fordham Website is well structured and has all these subheadings. 
+When you click on them it will lead you to a different page with all the related information. 
+It’s a lot easier to navigate to since it’s very straightforward and 
+it has a search button if you can’t find what you’re looking for. 
+
+3. What is an HTML element? Tag? Attribute?
+HTML elements are building blocks of web pages, representing different types of content such as headings, 
+paragraphs, links, and images in between a tag. Tags are containers, they have elements inside the tag 
+and for them to work they should have <elements> and end with </element>.  
+Attributes tell us more about elements and they provide additional information about the contents of an element, 
+and they also have a name and a value. 
+ 
+4. What does it mean when an element has semantic meaning? And structural meaning?
+Semantic elements are intended to convey meaning by their element type. 
+Structural elements with meaning have an effect on the structure of a page. 
+
+5. What is the default behavior when submitting a HTML form?
+The default behavior when submitting a HTML form is the data will go to url. 
