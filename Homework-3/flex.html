@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Flex code</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <div class="flex-container">
+
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div> 
+
+    </div>
+
+
+</body>
+<style>
+
+    .flex-container
+    {
+        display: flex;
+        color: red;
+    }
+
+    .flex-item
+    {
+        width: 100px;
+        height: 100px;
+
+    }
+
+    @media (min-width:500px)
+    {
+        .flex-container
+        {
+            flex-direction: row;
+        }
+    }
+
+    @media (max-width:499px) 
+    {
+        .flex-container
+        {
+            flex-direction: column;
+        }
+    }
+
+
+
+</style>
