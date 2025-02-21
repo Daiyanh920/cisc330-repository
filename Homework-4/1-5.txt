@@ -1,0 +1,23 @@
+
+1. How does an interpreted programming language differ from a compiled language?
+An interpreted language executes code by using an interpreter, and a compiled language translates code into a machine before executing. 
+
+2. Contrast dynamically typed programming languages with statically typed ones. And contrast strongly typed programming languages with weakly typed ones. 
+Dynamic typed languages type checking is performed at runtime, meaning that the type of a variable is allowed to change over its lifetime, 
+while static typed the type is bound to the variable. Types are checked at compile time. Strongly typed type discipline that is enforced by 
+the compiler, while weakly typed recognizes different data types (numbers, strings, etc.), but doesn't use them too strictly, trying to convert 
+data when it seems reasonable
+
+3. What is the difference between var, let, and const when declaring variables in JS? 
+var: old school, global+function scoped, redeclarable   
+let: block scoped, redeclarable
+const: block scoped, not redeclarable 
+
+4. What are anonymous functions? Higher order functions? Callback functions? First class functions? 
+first-class functions: if functions in that language are treated like other variables
+higher-order functions: are functions that return a function or take other functions as arguments.
+callback functions: passed as an argument to another function to be called later
+An anonymous function is a function without a name
+
+5. Define objects in JavaScript. 
+Non primitive data type that stores information. 
