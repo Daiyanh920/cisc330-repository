@@ -1,5 +1,0 @@
-1. In certain programming languages the source code is not directly translated by the target machine. Instead, a different program, called the interpreter, reads and executes the code. This is called an Interpreted language. 
-2. Type checking is performed at runtime, means that the type of a variable is allowed to change over its lifetime, this is called dynamic typing. 
-3. The automatic conversion of values from one data type to another is called Type juggling
-4. Primitive data types are mutable and hold references to objects stored in memory. 
-5. Strict Equal Checks if two values are equal without type coercion. 
