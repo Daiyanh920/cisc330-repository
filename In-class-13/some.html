@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <button id="click">Click</button>
+    <div id="something"></div>
+    <script>
+
+        $(document).ready(function(){
+            $("#click").click(function(){
+                $.ajax({
+                    url: "/response",
+                    type: "GET",
+                    dataType: "json",
+                    success: function(response){
+                        console.log(response)
+                        $("#something").html(response.status);
+                    }
+
+                })
+            })
+
+
+        })
+
+    </script>
+
+</body>
