@@ -10,8 +10,9 @@ $uriArray = explode("/", $uri);
 if($uriArray[0] == '') 
 {
     echo include 'some.html';
-    exit();
-} else {
+}
+
+if ($uriArray[0] == 'response' && $_SERVER['REQUEST_METHOD'] === 'GET') {
     $response = [
         [
             'Send' => 'Got it'
@@ -21,7 +22,6 @@ if($uriArray[0] == '')
     echo json_encode($response);
     exit();
 }
-
 
 
 ?>
