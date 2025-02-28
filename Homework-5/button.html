@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+    <title>name and price</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <button id="click">Press</button>
+
+    <div id="menu-container"></div>
+
+        <script>
+            $document.ready(function(){
+                $('#click').click (function(){       
+                    $.ajax(
+                    {                                    
+                        url: '/menu',
+                        type: "GET",
+                        dataType: "json",
+                        success: function (menu) 
+                        {
+                            $("menu-container").html("");
+                            $.each(menu, function(item, cost)
+                            {
+                                $("#menu-container").append('<div id="list"><p>${item}: $${cost}</p></div>');
+                                   
+                            });
+                        }    
+                    });
+                })
+            })
+         
+        </script>
+</body>

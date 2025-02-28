@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+    <title>Unordered list</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <ul>
+        <li onclick="item1(this)">item 1</li>
+        <li onclick="item2(this)">item 2</li>
+        <li onclick="item3(this)">item 3</li>
+    </ul>
+
+    <script>
+        function item1(element)
+        {
+            element.style.color = "red";
+        }
+        function item2(element)
+        {
+            element.style.color = "yellow";
+        }
+        function item3(element)
+        {
+            element.style.color = "green";
+        }
+    </script>
+
+</body>

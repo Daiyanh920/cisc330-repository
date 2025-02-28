@@ -1,0 +1,29 @@
+1. What is the DOM? What is meant by the DOM tree? 
+The Document Object Model (DOM) is a programming interface for web documents. 
+a browser loads a web page, it creates a model of that page.
+
+2. What is an XSS attack? How do they work? How can you guard against them? 
+XSS attack is when a malicious user adds code to an input that is eventually generated as html, 
+that code could potentially be run for different users.Strip it of potential malicious intent by 
+removing tags, escaping characters, etc
+
+3. What is an event in JavaScript? What kind of events can you respond to with code? 
+HTML events are "things" that happen to HTML elements. Kinds of events would be clicks or load. 
+
+4. How does a DOM eventListener work? What are the parameters it is expecting? 
+An event listener is a function that waits for a specific event to occur on an element and then executes a given callback function.
+
+5. What is jQuery? Why use it? How do we load jQuery onto a page? 
+jQuery is a lightweight JavaScript library designed to simplify DOM manipulation, event handling,  
+and AJAX requests. We use shorter syntax, and easier DOM manipulation. Get a CDN link from online. 
+
+6. What is AJAX? JSON? The HTTP method types and what they do? 
+AJAX allows web pages to be updated asynchronously by exchanging data with a web. 
+JSON is a text-based data format following JavaScript object syntax that uses human-readable 
+text to store and transmit data objects consisting of attribute–value pairs and arrays server behind the scenes.  
+Each HTTP request has a method type, and each method type has semantic meaning:  
+GET - should only ever retrieve data
+POST - submits an entity to the specified resource, often causing a change in state or side effects on the server - usually creating a new resource
+PUT - method replaces all current representations of the target resource with the request payload - update everything for a resource
+PATCH - partially modify a resource - not really used much, put is more common for modifying resources
+DELETE - delete a resource
