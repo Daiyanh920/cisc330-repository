@@ -1,0 +1,9 @@
+1. Objects in PHP use the arrow syntax -> to access object properties and methods. 
+
+2. The visibility of a property, a method or a constant can be defined by prefixing the declaration with the keywords public, protected or private. 
+
+3. When a class derives from another class: Inheritance 
+
+4. polymorphism allows objects of different classes to respond differently based on the same message. 
+
+5. Namespace allow the PHP interpreter to tell the difference between two classes, functions, or constants that share the same name. 
