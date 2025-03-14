@@ -1,0 +1,23 @@
+1. What is a class? What is an object? What is OOP? 
+A class is a blueprint or template for creating objects. It defines properties (attributes) and methods (functions) that the objects created from the class will have.
+An object is an instance of a class. It contains real values assigned to the properties defined in the class and can execute the class's methods.
+Object-Oriented Programming  is a programming paradigm that uses classes and objects to model real-world entities. It promotes principles like encapsulation, inheritance, polymorphism, and abstraction.
+
+2. Why use an abstract class in OOP? 
+An abstract class is used when you want to define a common base class that should not be instantiated on its own but should only be used as a foundation for other derived classes.
+It allows you to define methods that must be implemented by any subclass, ensuring a consistent interface.
+
+3. What are superglobals in PHP, what are some examples of data they provide? 
+Superglobals are built-in PHP variables that are always accessible, regardless of scope. They provide information about requests, sessions, and server data. $_GET: Retrieves data from the URL query parameters.
+$_POST: Retrieves form data sent via the POST method.
+
+4. What are the two steps to setting up and using a class via namespaces? 
+Define a namespace in your class file, then import and use the class in another file.
+
+5. What is MVC? Detail the different parts. 
+Model-View-Controller (MVC) is a software design pattern used in web development to separate concerns and organize code efficiently.
+Model: Manages data and business logic. It retrieves, updates, and processes data.
+View: Handles the user interface (UI) and displays data from the Model.
+Controller: Processes user input, calls the appropriate Model, and updates the View.
+
+
