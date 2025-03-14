@@ -1,6 +1,6 @@
 <?php
 
-namespace php4; 
+namespace git php4; 
 
 class Item{
 
