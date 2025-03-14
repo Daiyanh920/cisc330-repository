@@ -20,4 +20,22 @@ Model: Manages data and business logic. It retrieves, updates, and processes dat
 View: Handles the user interface (UI) and displays data from the Model.
 Controller: Processes user input, calls the appropriate Model, and updates the View.
 
+6.
+a. Getting all users
+URI: /users
+HTTP Verb: GET
+b. Getting one user
+URI: /users/{id} (replace {id} with the specific user’s ID)
+HTTP Verb: GET
+c. Saving a user (Creating a new user)
+URI: /users
+HTTP Verb: POST
+d. Editing a user (Updating an existing user)
+URI: /users/{id}
+HTTP Verb: PUT (or PATCH if only partially updating)
+e. Deleting a user
+URI: /users/{id}
+HTTP Verb: DELETE
+
+
 
