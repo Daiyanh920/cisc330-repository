@@ -1,0 +1,7 @@
+1. SQL RELATIONSHIPS are the established associations between two or more tables. 
+2. For every record in the primary table, there are one or more related records in the foreign table: ONE-TO-MANY
+3. The JOIN keyword allows you to request data from more than one table 
+4. The LEFT JOIN returns all records from the left table (table1), and the matching records from the right table 
+5. An AGGREGATE function is a function that performs a calculation on a set of values, and returns a single value. 
+
+
