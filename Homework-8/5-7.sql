@@ -19,3 +19,17 @@ insert into notes(title, description) value
 Update notes
 set title = 'White Rice'
 Where title = 'Rice';
+
+Delete from notes
+Where title = 'Bean Sprouts';
+
+select * from notes order by title description; 
+
+select * from notes limit 1 offset 1;
+
+select * from notes 
+where description like '%a%'
+or description like'%e%'
+or description like'%i%'
+or description like'%o%'
+or description like'%u%';
