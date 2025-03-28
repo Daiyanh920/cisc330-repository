@@ -23,7 +23,7 @@ Where title = 'Rice';
 Delete from notes
 Where title = 'Bean Sprouts';
 
-select * from notes order by title description; 
+select * from notes order by title desc; 
 
 select * from notes limit 1 offset 1;
 
