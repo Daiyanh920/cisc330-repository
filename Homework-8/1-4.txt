@@ -1,0 +1,14 @@
+1. What are sessions and cookies? What do they do? 
+Sessions store information about a user and their preferences on the server. 
+A website can tell a browser to store data about the user and their visit in a text file called a cookie. 
+Each time the browser requests another page from that domain, the browser sends the data in the cookie back to the server 
+
+2. What is SQL? MySQL? What are relational databases? 
+SQL is a standard language for database creation and manipulation. MySQL is a relational database program (one of many) that uses SQL queries. 
+
+3. What is normalization in SQL? 
+Normalization organizes the columns and tables of a database to ensure that database integrity constraints properly execute their dependencies.
+
+4. What are primary and foreign keys? 
+A primary key is the field (or fields) that is used to uniquely identify each record in a table.
+A foreign key is a field (or fields) in one table that references the primary key in another table. 
