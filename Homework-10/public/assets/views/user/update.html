@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Update Product</title>
+  <link rel="stylesheet" href="/assets/styles/style.css">
+</head>
+<body>
+  <h1>Update Product</h1>
+  <form id="updateForm">
+    <input type="number" id="id" placeholder="Product ID" required>
+    <input type="text" id="name" placeholder="New Product Name" required>
+    <input type="number" id="price" placeholder="New Price" required>
+    <button type="submit">Update</button>
+  </form>
+
+  <script>
+    document.getElementById('updateForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const id = document.getElementById('id').value;
+      const name = document.getElementById('name').value;
+      const price = document.getElementById('price').value;
+
+      const response = await fetch('/product/update', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ id, name, price })
+      });
+
+      const data = await response.json();
+      alert(data.message || 'Product updated!');
+    });
+  </script>
+</body>
+</html>
